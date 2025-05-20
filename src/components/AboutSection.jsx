@@ -12,37 +12,41 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Frontend Developer | UI Engineer | Tech Enthusiast
+                            Frontend Developer | UI Engineer | Product-Focused Technologist
                         </h3>
 
                         <p className="text-muted-foreground">
-                            Passionate Frontend Developer with over 2 years 3 months of professional experience
-                            building responsive, scalable, and user-focused web applications using Angular,
-                            React, and modern UI libraries.
+                            I’m Gowtham S, a passionate Frontend Developer with 2+ years of experience crafting responsive,
+                            scalable, and user-centric web applications using Angular, React, and TypeScript.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I specialize in developing clean, maintainable code and crafting dynamic user interfaces that deliver both performance and usability.
-                            From real-time dashboards to enterprise portals, I bring design to life through code — with a strong focus on accessibility,
-                            state management, and modern development practices.
+                            I specialize in building component-driven interfaces with clean architecture and robust state
+                            management using Redux and RxJS. Whether it’s a government dashboard, enterprise-grade portal,
+                            or mobile-friendly PWA — I turn complex specifications into intuitive digital products.
+                            I focus deeply on accessibility, performance, and seamless user journeys.
+                        </p>
 
-                            Driven by curiosity and continuous learning, I thrive on turning complex requirements into seamless user experiences that align with both user needs and business goals.
+                        <p className="text-muted-foreground">
+                            With hands-on experience across the full development cycle — from SSO authentication to REST API
+                            integration, real-time data visualizations, and DevOps deployment — I bring a problem-solving
+                            mindset and a dedication to quality in every feature I ship.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
-                                {" "}
                                 Get In Touch
                             </a>
 
                             <a
-                                href="/cv/Gowtham_Software_Engineer.pdf"
+                                href="/cv/Gowtham_Software_Engineer.docx"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download CV
                             </a>
                         </div>
                     </div>
+
 
                     <div className="grid grid-cols-1 gap-6">
                         <div className="gradient-border p-6 card-hover">
@@ -51,44 +55,43 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Frontend Engineering</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
+                                        Building scalable, performant web apps using Angular, React, and Ionic. Expert in reusable components, state management, and clean architecture.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <User className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <h4 className="font-semibold text-lg">UI/UX Implementation</h4>
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user
-                                        experiences.
+                                        Translating complex wireframes into responsive, accessible, and intuitive interfaces using Fluent UI, Angular Material, and Bootstrap.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Briefcase className="h-6 w-6 text-primary" />
                                 </div>
-
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <h4 className="font-semibold text-lg">End-to-End Project Delivery</h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from conception to completion with agile
-                                        methodologies.
+                                        Delivered full-cycle projects like job portals, dashboards, and PWAs using Agile, integrating SSO, REST APIs, and secure authentication flows.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ const projects = [
         title: "OSANTS",
         description:
             "Lead, quote, and contact management system built with Angular and Ionic. Features include OTP login, role-based access, and dynamic UI components.",
-        image: "/projects/project1.png",
+        image: "/projects/osants.png",
         tags: ["Angular 16", "Ionic", "REST API", "Bootstrap"],
     },
     {
@@ -14,7 +14,7 @@ const projects = [
         title: "Sylko EDI Processor",
         description:
             "Enterprise-level Angular app for EDI-to-XML conversion. Included data table customizations and UX enhancements.",
-        image: "/projects/project2.png",
+        image: "/projects/Sylko.webp",
         tags: ["Angular", "ngx-datatable", "TypeScript", "REST API"],
     },
     {
@@ -22,7 +22,7 @@ const projects = [
         title: "MDMI – Midday Meals Information System ",
         description:
             "Government data tracking app using Angular and ApexCharts. Supported drill-down views, event timelines, and live API-based charts.",
-        image: "/projects/project3.png",
+        image: "/projects/mdmi.png",
         tags: ["Angular", "ApexCharts", "TypeScript", "Bootstrap"],
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         title: "Fundaneed Platform",
         description:
             "Donation and event registration system using Angular Material. Features include pagination tables, dialogs, and API integration.",
-        image: "/projects/project1.png",
+        image: "/projects/fundaneed.png",
         tags: ["Angular", "Angular Material", "TypeScript", "REST API"],
     },
     {
@@ -38,7 +38,7 @@ const projects = [
         title: "TCT – Transport Control Tower",
         description:
             "Fleet operations dashboard for real-time data visibility. Built with Angular and Bootstrap and integrated RESTful services.",
-        image: "/projects/project3.png",
+        image: "/projects/tct.png",
         tags: ["Angular", "REST API", "TypeScript", "Bootstrap"],
     },
     {
@@ -46,7 +46,7 @@ const projects = [
         title: "Rx-Office Teams App",
         description:
             "Microsoft Teams-integrated workspace management tool with SSO, theming, and responsive UI using Fluent UI and Ant Design.",
-        image: "/projects/project2.png",
+        image: "/projects/rx.png",
         tags: ["React", "Fluent UI", "Microsoft Teams Toolkit", "Ant Design"],
     },
     {
@@ -54,7 +54,7 @@ const projects = [
         title: "TEXCO Job Portal",
         description:
             "Job portal for ex-servicemen with dual registration flows and React Stepper UI. Includes dashboard and job application module.",
-        image: "/projects/project1.png",
+        image: "/projects/texco.png",
         tags: ["React", "React Stepper", "REST API", "Bootstrap"],
     },
     {
@@ -62,7 +62,7 @@ const projects = [
         title: "TOWA – Tenant Management System",
         description:
             "Tenant management app using Angular 19 with JWT Auth, lazy loading, dynamic forms, and real-time CRUD integration.",
-        image: "/projects/project3.png",
+        image: "/projects/towa.png",
         tags: ["Angular 19", "Angular Material", "JWT", "Bootstrap"],
     },
 ];
@@ -74,14 +74,14 @@ export const ProjectsSection = () => {
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    {" "}
-                    Featured <span className="text-primary"> Projects </span>
+                    Featured <span className="text-primary">Projects</span>
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully
-                    crafted with attention to detail, performance, and user experience.
+                    A curated collection of real-world applications I’ve developed — from government systems to enterprise dashboards and job portals.
+                    Each project demonstrates my ability to solve complex problems with Angular, React, and modern web technologies, while focusing on clean architecture, performance, and UX.
                 </p>
+
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
@@ -112,7 +112,7 @@ export const ProjectsSection = () => {
                                 </p>
                                 <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
-                                        <a
+                                        {/* <a
                                             href={project.demoUrl}
                                             target="_blank"
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
@@ -125,7 +125,7 @@ export const ProjectsSection = () => {
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                         >
                                             <Github size={20} />
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>

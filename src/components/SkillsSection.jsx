@@ -4,29 +4,47 @@ import { cn } from "@/lib/utils";
 const skills = [
     // Frontend
     { name: "HTML/CSS", level: 95, category: "frontend" },
+    { name: "SCSS", level: 85, category: "frontend" },
     { name: "Angular", level: 90, category: "frontend" },
-    { name: "JavaScript", level: 90, category: "frontend" },
     { name: "React", level: 90, category: "frontend" },
+    { name: "JavaScript", level: 90, category: "frontend" },
     { name: "TypeScript", level: 85, category: "frontend" },
     { name: "Bootstrap", level: 90, category: "frontend" },
+    { name: "Angular Material", level: 85, category: "frontend" },
+    { name: "Fluent UI", level: 80, category: "frontend" },
+    { name: "Ionic", level: 75, category: "frontend" },
 
-    //   // Backend
-
+    // Backend
     { name: "REST API Integration", level: 85, category: "backend" },
     { name: "JWT Authentication", level: 80, category: "backend" },
     { name: "MSAL (Microsoft SSO)", level: 75, category: "backend" },
     { name: "OTP Authentication", level: 70, category: "backend" },
-
-    // Tools
-    { name: "Git/GitHub", level: 90, category: "tools" },
-    { name: "Docker", level: 70, category: "tools" },
-    { name: "Figma", level: 85, category: "tools" },
-    { name: "VS Code", level: 95, category: "tools" },
+    { name: "Role-Based Access Control", level: 75, category: "backend" },
     { name: "WinSCP (File Deployment)", level: 60, category: "backend" },
 
+    // Tools
+    { name: "Git/GitHub/GitLab", level: 90, category: "tools" },
+    { name: "Docker", level: 70, category: "tools" },
+    { name: "Winacp", level: 70, category: "tools" },
+    { name: "Putty", level: 70, category: "tools" },
+    { name: "VS Code", level: 95, category: "tools" },
+    { name: "Visual Studio", level: 95, category: "tools" },
+    { name: "Jira & Confluence", level: 85, category: "tools" },
+    { name: "Figma", level: 85, category: "tools" },
+    { name: "Microsoft Teams Toolkit", level: 75, category: "tools" },
+
+    // Charts & Visualization
+    { name: "ApexCharts", level: 85, category: "visualization" },
+    { name: "Chart.js", level: 80, category: "visualization" },
+    { name: "D3.js", level: 70, category: "visualization" },
+
+    // Testing
+    { name: "Jasmine", level: 80, category: "testing" },
+    { name: "Karma", level: 75, category: "testing" },
+    { name: "React Testing Library", level: 70, category: "testing" }
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools", "visualization", "testing"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
